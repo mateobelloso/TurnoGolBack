@@ -1,0 +1,17 @@
+services:
+  app:
+    build:
+      context: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: npm run dev
+    environment:
+      - NODE_ENV=development
+      - DB_NAME=railway
+      - DB_USER=postgres
+      - DB_PASSWORD=vpmzvOYUEpBajmKBwNsNXYRnjceFeyld
+      - DB_HOST=junction.proxy.rlwy.net
+      - DB_PORT=33427
