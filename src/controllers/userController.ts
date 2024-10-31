@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import Usuario from '../models/usuario';
+import Usuario from '../models/Usuario';
 
 //Funcion que permite crear un usuario (faltan los verdaderos atributos de la tabla)
 const createUser = async (req: Request, res: Response) => {
