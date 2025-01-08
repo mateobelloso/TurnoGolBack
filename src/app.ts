@@ -1,5 +1,5 @@
 import express, { Request, Response } from 'express';
-import Usuario from './models/Usuario';
+import Usuario from './models/usuario';
 import sequelize from './database/config';
 
 const app = express();
@@ -47,4 +47,4 @@ const iniciar = async () => {
   }
 };
 
-iniciar();
+//iniciar();

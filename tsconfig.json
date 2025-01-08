@@ -1,4 +1,4 @@
-{
+/*{
     "compilerOptions": {
       "target": "es6",
       "module": "commonjs",
@@ -7,8 +7,17 @@
       "strict": true,
       "esModuleInterop": true,  // Habilita la importación de módulos comunes como import default
       "skipLibCheck": true      // Opcional, ignora la comprobación de tipos en los módulos
-    },
-    "include": ["src/**/*.ts"],
-    "exclude": ["node_modules"]
-  }
+    },*/
+    //"include": ["src/**/*.ts"],
+    //"exclude": ["node_modules"]
+  //}*/
   
+  {
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "commonjs",
+    "target": "es6",
+    "strict": true,
+    "esModuleInterop": true
+  }
+}
