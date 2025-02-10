@@ -86,12 +86,12 @@ src/
 
 Estos a desarrollar aun y pueden cambiar
 
-| Método | Ruta              | Descripción                          | Estado                                      |
-|--------|-------------------|--------------------------------------|---------------------------------------------|
-| GET    | /api/usuarios     | Obtiene la lista de usuarios         | <span style="color: green;">Implementado</span> |
-| POST   | /api/usuarios     | Crea un nuevo usuario                | <span style="color: red;">Pendiente</span>      |
-| PUT    | /api/usuarios/:id | Actualiza un usuario existente       | <span style="color: red;">Pendiente</span>      |
-| DELETE | /api/usuarios/:id | Elimina un usuario                   | <span style="color: red;">Pendiente</span>      |
+| Método | Ruta              | Descripción                          | Estado          |
+|--------|-------------------|--------------------------------------|-----------------|
+| GET    | /api/usuarios     | Obtiene la lista de usuarios         | ✅ Implementado |
+| POST   | /api/usuarios     | Crea un nuevo usuario                | ❌ Pendiente    |
+| PUT    | /api/usuarios/:id | Actualiza un usuario existente       | ❌ Pendiente    |
+| DELETE | /api/usuarios/:id | Elimina un usuario                   | ❌ Pendiente    |
 
 ---
 
