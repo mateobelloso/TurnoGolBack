@@ -1,11 +1,17 @@
 // Importa las dependencias necesarias de Express
 import express, { Request, Response } from 'express';
 
+// Importa Cors para poder recibir peticiones desde otros servidores
+import cors from "cors";
+
 // Importa las rutas definidas en el archivo index.ts
 import routes from './routes/index';
 
 // Crea una instancia de la aplicación Express
 const app = express();
+
+// Habilita CORS para todas las rutas
+app.use(cors());
 
 // Middleware para parsear las solicitudes con formato JSON
 app.use(express.json());

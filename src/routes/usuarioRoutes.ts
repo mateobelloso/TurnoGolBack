@@ -11,7 +11,7 @@ const router = Router();
 router.get('/usuarios', obtenerUsuarios);
 
 // Define una ruta POST para crear un nuevo usuario
-router.post('/usuarios', crearUsuario);
+router.post('/registro', crearUsuario);
 
 // Exporta el enrutador para que pueda ser utilizado en otros archivos
 export default router;
